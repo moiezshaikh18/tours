@@ -33,7 +33,7 @@ function App() {
   }
   return (
     <main className="App">
-      <Tours />
+      <Tours tours={tours} />
     </main>
   );
 }
